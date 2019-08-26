@@ -1,0 +1,15 @@
+{
+  "name": "stencil-render-performance",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@stencil/core": "^1.3.0"
+  },
+  "license": "MIT"
+}
