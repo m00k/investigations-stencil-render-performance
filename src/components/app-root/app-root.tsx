@@ -13,7 +13,7 @@ export class AppRoot {
     return (
       <div>
         <header>
-          <h1>Hit button to switch between rendered components</h1>
+          <h1>Use buttons to toggle components</h1>
         </header>
 
         <main>

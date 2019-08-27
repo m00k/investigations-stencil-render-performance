@@ -20,6 +20,8 @@ main {
   flex-direction: column;
   height: 80vh;
   justify-content: center;
+  margin: auto;
+  max-width: 500px;
 }
 
 button {
@@ -27,6 +29,7 @@ button {
   border: 0px;
   border-radius: .5em;
   color: #fff;
+  flex-grow: 1;
   font-size: inherit;
   font-weight: bold;
   margin: .2em;
@@ -40,11 +43,10 @@ button {
   color: #fff;
   font-size: 1.5em;
   font-weight: bold;
-  min-width: 400px;
-  margin: 1em 0;
-  padding: 2em 1em;
+  margin: .5em 0;
+  padding: 2em 0;
   text-align: center;
-  width: 40vw;
+  width: 100%;
 }
 
 .controls {

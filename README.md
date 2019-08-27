@@ -1,6 +1,6 @@
-## Stencil render performance investigation
+## Stencil render performance
 
-Investigate why using jsx
+There is noticable flickering when using conditional rendering even with the simplest stencil component.
 
 ```jsx
   {this.showNo === 0 && <app-cmp1 class='cmp'></app-cmp1>}
@@ -9,4 +9,4 @@ Investigate why using jsx
   {this.showNo === 3 && <app-cmp1 class='cmp'></app-cmp1>}
 ```
 
-to switch the render state of simple stencil components causes flickering. 
+*Tested with Chrome Version 76.0.3809.132 (Official Build) (64-bit) on Linux Ubuntu 18.10*
