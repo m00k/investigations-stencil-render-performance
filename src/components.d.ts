@@ -9,32 +9,11 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface AppCmp1 {}
-  interface AppCmp2 {}
-  interface AppCmp3 {}
   interface AppRoot {}
 }
 
 declare global {
 
-
-  interface HTMLAppCmp1Element extends Components.AppCmp1, HTMLStencilElement {}
-  var HTMLAppCmp1Element: {
-    prototype: HTMLAppCmp1Element;
-    new (): HTMLAppCmp1Element;
-  };
-
-  interface HTMLAppCmp2Element extends Components.AppCmp2, HTMLStencilElement {}
-  var HTMLAppCmp2Element: {
-    prototype: HTMLAppCmp2Element;
-    new (): HTMLAppCmp2Element;
-  };
-
-  interface HTMLAppCmp3Element extends Components.AppCmp3, HTMLStencilElement {}
-  var HTMLAppCmp3Element: {
-    prototype: HTMLAppCmp3Element;
-    new (): HTMLAppCmp3Element;
-  };
 
   interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {}
   var HTMLAppRootElement: {
@@ -42,23 +21,14 @@ declare global {
     new (): HTMLAppRootElement;
   };
   interface HTMLElementTagNameMap {
-    'app-cmp1': HTMLAppCmp1Element;
-    'app-cmp2': HTMLAppCmp2Element;
-    'app-cmp3': HTMLAppCmp3Element;
     'app-root': HTMLAppRootElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface AppCmp1 extends JSXBase.HTMLAttributes<HTMLAppCmp1Element> {}
-  interface AppCmp2 extends JSXBase.HTMLAttributes<HTMLAppCmp2Element> {}
-  interface AppCmp3 extends JSXBase.HTMLAttributes<HTMLAppCmp3Element> {}
   interface AppRoot extends JSXBase.HTMLAttributes<HTMLAppRootElement> {}
 
   interface IntrinsicElements {
-    'app-cmp1': AppCmp1;
-    'app-cmp2': AppCmp2;
-    'app-cmp3': AppCmp3;
     'app-root': AppRoot;
   }
 }

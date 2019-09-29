@@ -1,13 +1,3 @@
-import { Component, h } from '@stencil/core';
+import { FunctionalComponent, h } from '@stencil/core';
 
-@Component({
-  tag: 'app-cmp1'
-})
-export class Cmp1 {
-
-  render() {
-    return (
-      <div>Component No. 1</div>
-    );
-  }
-}
+export const Cmp1: FunctionalComponent = () => <div class="cmp">Component No. 1</div>;
